@@ -1,0 +1,224 @@
+/* my changes */
+
+html, .wrapper, .alert-danger{
+    background: #29353D;
+}
+.alert-danger{
+    margin-top: 1vh;
+    color:red
+}
+.header {
+    padding-top: .5rem;
+    padding-left: 10px;
+    background: #071A26 ;
+}
+.nav-list{
+    padding-left: 5%;
+}
+.row{
+    margin: 0;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+.card{
+    width: auto;
+    height: auto;
+    background: #030214 ;
+    border: 1px solid white;
+    color: white;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 10px;
+}
+.br-white{
+    border-bottom: 1px solid white;
+}
+.card-part{
+    background: #030214;
+    border: 1px solid white;
+}
+
+.header ul li {
+    list-style: none;
+    margin: 0;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+}
+  
+.header ul li:hover {
+    background-color: #444;
+}
+  
+.header a:hover {
+    text-decoration: none;
+}
+  
+.header h3 a {
+    color: white;
+}
+  
+.header h3 a:hover {
+    color: #00bc8c;
+}
+.media{
+    margin-left: 2vw;
+    width: auto;
+    height: auto;
+    padding: 10vh;
+    border: 1px solid #A6ACAF ;
+    background: #27272C ;
+}
+.ImageField{
+    width: auto;
+    height: auto;
+}
+.planetImage{
+    width: 250px;
+    height: 250px;
+}
+.media-body{
+    margin-left: 5vw;
+    min-width: 30vw;
+}
+.PlanetWrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    background: #29353D;
+    padding-top: 5vh;
+    grid-gap: 20px;
+    
+}
+
+
+/* spinner */
+
+@keyframes ldio-b1yedhhztqk {
+  0% { transform: rotate(0deg) }
+  50% { transform: rotate(180deg) }
+  100% { transform: rotate(360deg) }
+}
+.ldio-b1yedhhztqk div {
+  position: absolute;
+  animation: ldio-b1yedhhztqk 1s linear infinite;
+  width: 160px;
+  height: 160px;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  box-shadow: 0 4px 0 0 #e15b64;
+  transform-origin: 80px 82px;
+}
+.loadingio-spinner-eclipse-wza6nczsjc {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: none;
+}
+.ldio-b1yedhhztqk {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-b1yedhhztqk div { box-sizing: content-box; }
+
+/* random-panet css */
+
+.random-planet {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    padding: 1rem;
+    background: #1E1E27 ;
+    border: 3px solid #22222A;
+    border-radius: 10px;
+    box-shadow: 10px 5px 10px ;
+    width: 50vw;
+}
+  
+.random-planet .planet-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+  
+.random-planet .list-group {
+    margin: 1rem 0 0 1rem;
+}
+  
+.random-planet .list-group-item {
+    padding: .25rem;
+}
+  
+.random-planet .list-group-item .term {
+    margin-right: .5rem;
+}
+.planet-data{
+    color: white;
+    background: #1E1E27;
+}
+
+/* list-group */
+.list-group-item{
+    background: #1E1E27 ;
+    color: white;
+    padding: 15px;
+    border: 0;
+}
+.mylist{
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+.WrapperForList{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    justify-content: center;
+}
+.item:hover{
+    background: #3A3A83 ;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* data-card */
+.person-details {
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: row;
+    padding: 1rem;
+}
+  
+.person-details .person-image {
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+}
+  
+.person-details .list-group-item {
+    padding: .25rem;
+}
+  
+.person-details .list-group-item .term{
+    margin-right: .5rem;
+}
+.dataContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    padding: 0.5rem;
+}
